@@ -1,0 +1,26 @@
+{
+  "name": "ronaldo/section2",
+  "authors": [
+    {
+      "name": "Ronaldo García",
+      "email": "ronaldo-garcia1@hotmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^11.15"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.34"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
